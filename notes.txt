@@ -1,0 +1,10 @@
+Don't need to use reset when using bootstrap -- but do when creating own css. 
+
+Wirefaming tools: Balsamiq, Framebox, wireframe.cc
+
+Progressive enhancement vs graceful degradation for mobile scaling
+
+Container-fluid stretches across entire screen
+	container > row > column 
+	Nothing in container that's not a row	
+Media queries are declared after normal csscd
