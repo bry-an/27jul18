@@ -1,0 +1,34 @@
+The application gets rendered in index.html in the div id = root
+
+All dependencies are stored in package.json
+
+node_modules/ dir is where all of the dependencies get built/stored (shouldn’t have to mess with it)
+
+Src/ is important directory. Stores all modifiable code. 
+
+index.js stores main Render call from ReactDOM. Imports App.js component that we start off with and tells React where to render it.
+
+Render() takes two arguments:
+1. Which component to render
+2. Where to render it
+
+Redux: control state
+One-dimensional: passing state down to react components
+
+Lay out components: search component, video list item, selected video
+
+Use react router to make it look like we're going to different pages. 
+
+RegisterServiceWorker means react can mostly run when you're offline.
+
+Style components: create variable object to define styles, apply to divs in component
+
+Explore testing in React -- use test.app
+
+Rule of thumb Make your components dumb (constant, doesn't have state) until otherwise
+
+Use export default if there's only one thing or if there's nothing named in file. 
+
+Components, at the end of the day, are functions; props are just arguments into a function
+
+Make a dumb component smart: write the smart stuff beneath dumb stuff, confirm, then delete dumb one 
